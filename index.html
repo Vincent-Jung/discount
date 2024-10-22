@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cal'Cul'Ta'Remise</title>
+    <link rel="stylesheet" href="styles.css"> 
+
+  </head>
+  <body>
+    <h1>Cal'Cul'Ta'Remise</h1>
+
+    <div>
+      <label for="invoice" >Montant facture €</label>
+      <input type="number" id="invoice" min="0"/>
+    </div>
+
+    <div>
+      <select id="discount" >
+        <option value="">-- Choisir une remise --</option>
+      </select>
+
+      <select id="seniority">
+        <option value="">-- Indiquer la fidélité --</option>
+      </select>
+    </div>
+
+    <div>
+      <button id="finalInvoice">Calculer la facture finale</button><br>
+      <span id="displayFinalInvoice"></span>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
